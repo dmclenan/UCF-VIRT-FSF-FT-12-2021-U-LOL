@@ -11,8 +11,14 @@
     console.log("Great to see you, " + students[i] + "!");
   }
 
+  //While loop showing the same thing as the for loop
   var i = 0;
   while (i < students.length) {
     console.log("Great to see you " + students[i]);
     i++;
+  }
+
+  //How to change the loop and reverse it
+  for (var i = students.length - 1; i >= 0; i--) {
+    console.log("Great to see you " + students[i]);
   }
