@@ -10,3 +10,9 @@
     // This statement will run each time the loop is executed
     console.log("Great to see you, " + students[i] + "!");
   }
+
+  var i = 0;
+  while (i < students.length) {
+    console.log("Great to see you " + students[i]);
+    i++;
+  }
