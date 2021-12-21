@@ -16,3 +16,11 @@ if (customerDrink.isReady) {
 } else {
   console.log("Still in order queue: " + customerDrink["name"] + " with " + customerDrink["sugars"] + " sugars.");
 }
+
+// Log Property function
+function logProperty(property) {
+  console.log(customerDrink[property]);
+}
+
+logProperty("name");
+logProperty("sugars");
